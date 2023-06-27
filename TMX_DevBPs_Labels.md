@@ -22,4 +22,11 @@
         </ul>
 </ul>
 
+####Recommended best practice checks
+* Microsoft.Dynamics.AX.Framework.CodeStyleRules
+    * Label Rules
+        * BPErrorLabelIsText
+        * BPErrorMathodLabelInSingleQuotes
+        * BPErrorUnknownLabel
+
 Link to <a href="">Microsoft documentation</a>

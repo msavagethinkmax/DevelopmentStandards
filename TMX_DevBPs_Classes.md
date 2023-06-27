@@ -17,7 +17,7 @@
     <li>Event handler classes
         <ul>
             <li>Follow Microsoft recommendation: opt for using a CoC method extension rather than an event handler.  Do not create an OnInserting table event handler method, extend the insert() method on a table.</li>
-            <li>Do not mix event  handler methods across different objects in the same event handler class. All event handler methods in the event handler class should relate back to a single object.</li>
+            <li>Do <b>not</b> mix event  handler methods across different objects in the same event handler class. All event handler methods in the event handler class should relate back to a single object.</li>
         </ul>
     </li>
 </ul>
