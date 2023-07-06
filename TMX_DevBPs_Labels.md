@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Label files
 
 ####Considerations
@@ -21,12 +20,3 @@
             <li>From previous versions of Dynamics AX, most Microsoft label files are incremented numerically with their layer prefix like "@SYS12345". <br>Do <b>not</b> reuse this approach in custom development.</li>
         </ul>
 </ul>
-
-####Recommended best practice checks
-* Microsoft.Dynamics.AX.Framework.CodeStyleRules
-    * Label Rules
-        * BPErrorLabelIsText
-        * BPErrorMathodLabelInSingleQuotes
-        * BPErrorUnknownLabel
-
-Link to <a href="">Microsoft documentation</a>

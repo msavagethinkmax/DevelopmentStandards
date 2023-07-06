@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Security objects
 
 ####Considerations
@@ -33,4 +32,5 @@
 ||Primary table||
 ||Operation||
 
+<hr>
 Link to <a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/security-architecture">Microsoft documentation</a>

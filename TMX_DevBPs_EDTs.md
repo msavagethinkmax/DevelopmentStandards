@@ -1,5 +1,4 @@
-#Thinkmax development best practices:
-####Extended data types 
+##Extended data types 
 
 ####Considerations
 <ul>
@@ -18,8 +17,10 @@
     <li>Label</li>
 </ul>
 #####Type specfic properties
-|Type|Property|Naming convention|
+|Type|Required Property|Naming convention|
 |-|-|-|
+||Name||
+||Label||
 |String|String size||
 |Real|||
 |Integer|||
@@ -29,6 +30,7 @@
 |Container|||
 |Enum|Enum type||
 
+<hr>
 Link to <a href = "https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-data-edt">Microsoft documentation</a>
 
 

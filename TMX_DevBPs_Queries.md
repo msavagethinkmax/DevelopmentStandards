@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Queries
 
 ####Considerations

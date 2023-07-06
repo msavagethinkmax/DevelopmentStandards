@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Classes
 
 ####Considerations
@@ -48,4 +47,5 @@
 </ul>
 
 <br>
+<hr>
 Link to <a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-classes-methods">Microsoft documentation</a>

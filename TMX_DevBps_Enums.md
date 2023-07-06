@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Enums 
 
 ####Considerations
@@ -13,4 +12,5 @@
 ||Is Extensible|
 |Enum element|Label|
 
+<hr>
 Link to <a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-data-primitive#enum">Microsoft documentation</a>

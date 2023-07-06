@@ -1,9 +1,12 @@
-#Thinkmax development best practices:
 ##Tables
 
 ####Considerations
+
 <ul>
-    <li></li>
+    <li>The name of a table is significant and should adequately describe the data inside the table. The FDD or development hand-off between the developer and dev lead should name tables. Name should be meaningful but as concise as possible.
+    </li> 
+    <li>Similarly, the name of a field is important because it lets anyone viewing or using the table what the purpose of the field is for, so that the correct data is assigned to the field. Names should be descriptive but also concise.
+    </li>              
 </ul>
 
 ####Naming conventions
@@ -12,14 +15,12 @@
     <ul>
         <li>[Client prefix][description of purpose]</li>
         <ul><li>i.e. TMXSpecialOrderHeaderTable or TMXSpecialOrderLine</li></ul>
-        <li>Description of purpose</li>
-            <ul>
-                <li>This part of the table name is significant and should adequately describe the data inside the table. The FDD or development hand-off between the developer and dev lead should name tables.
-                </li>               
-            </ul>
         <li>Temporary tables should end in "Tmp"</li>
     </ul>
     <li>Fields</li>
+        <ul>
+            <li>Fields added to a table via extension should use the project or initiative prefix.</li>
+        </ul>
     <li>Indexes</li>
         <ul>
             <li>All table indexes end in "Idx"</li>
@@ -43,13 +44,11 @@
 ||TitleField2||
 ||DeveloperDocumentation||
 |Field|Label <br><i>(If overriding EDT label)||
-|Field|ExtendedDataType||
-|Field|Mandatory<br><i>(If used as primary key field)|<b>Yes|
-|Field|AllowEdit<br><i>(If used as primary key field)||
+||ExtendedDataType||
+||Mandatory<br><i>(If used as primary key field)|<b>Yes|
+||AllowEdit<br><i>(If used as primary key field)||
 |Field group|Label||
 |Relation|Cardinality||
 |Relation|Related Table Cardinality||
 |Relation|Related Table||
 |Relation|Relationship Type|<b>Association|
-
-Link to <a href="">Microsoft documentation</a>

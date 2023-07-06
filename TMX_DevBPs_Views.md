@@ -1,9 +1,9 @@
-#Thinkmax development best practices:
 ##Views
 
 ####Considerations
 <ul>
-    <li></li>
+    <li>Treat view development similar to table development, as a view is just a data structure flattened into a single data soruce</li>
+    <li>While not required, it is highly recommended to use AOT query objects to drive the view data sources to make maintenance of a solutions easier.</li>
 </ul>
 
 ####Naming conventions
@@ -18,5 +18,3 @@
 ||TitleField1||
 ||TitleField2||
 ||DeveloperDocumentation||
-
-Link to <a href="">Microsoft documentation</a>

@@ -1,4 +1,3 @@
-#Thinkmax development best practices:
 ##Methods
 
 ####Considerations
@@ -9,8 +8,9 @@
 
 ####Naming conventions
 <ul>
-    <li>Methods created directly on an extension object should be prefixed with the project or initiative prefix.</li>
+    <li>Methods created directly on an extension object should user with the project or initiative prefix.</li>
     <li>The name of the method should clearly define what the function of the method achieves.</li>
+    <li>Parameters should be prefixed with an underscore "_".</li>
 </ul>
 
 ####Coding standards
@@ -51,4 +51,5 @@
 * Static text should be assigned a label and wrapped in double-quotes wherever possible. Thinkmax usually are involved in projects where English and French are used at a minimum and labels standardize translations.
     * Where labels cannot be used or are not applicable, put static text inside single-quotes.
 
-Link to <a href="">Microsoft documentation</a>
+<hr>
+Link to <a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-language-reference">Microsoft documentation</a>

@@ -8,5 +8,7 @@ By no means are the directives in this best practice guide the "law" and the fin
 The naming conventions suggested in this document are highly recommended, but could change due to a client constraint or project decision.
 Microsoft uses module and entity prefixes on their objects to define what part of the application refers to (i.e. CustCustomer, InventoryTrans, Retail, etc...). It is recommended that custom tables developed follow the same naming convention where applicable. For instance a class name like TMXUpdateShipDateRequested isn't as specific as TMXSalesUpdateShipDateRequested or TMXWHSWorkUpdateShipDateRequested.
 
+All object naming, both in code and the AOT, will use camel casing (i.e. ThinkmaxDevelopmentStandards)
 
+</br>
 If you ever have any questions on the contents of this wiki, or wish to suggest a change, please email TEC@thinkmax.com.
