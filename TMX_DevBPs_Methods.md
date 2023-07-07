@@ -15,7 +15,7 @@
 
 ####Coding standards
 * Use camel-case when naming variables: capitalize the first letter of each word or section in the method name and leave the rest of the letter lower-case for readability
-* All method code written should be legible and spaced correctly
+* All method code written should be legible and spaced correctly. Your code should be readable like a story; use proper spacing between words and punctuation, indentation and conservative use of blank lines between lines of code.
     * When declaring variable blocks, align the variable names:
     ```C#
     Description             myDesc;
