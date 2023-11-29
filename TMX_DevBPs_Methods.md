@@ -1,17 +1,13 @@
 ##Methods
 
 ####Considerations
-<ul>
-    <li>Methods should be written to encapsulate specific functionality. Smaller methods that target a specific functionality are easier to read and maintain. For instance, do not put the entire function of a SysOperation service class into the run() method or similar entry point. Break apart the various functionalities into methods that call each other.</li>
-    <li>Chain-of-command (CoC) methods should be an main entry point for calling the next() method.  Any additional code needed for the extension should be written in a new method or class called from the CoC method.</li>
-</ul>
+* Methods should be written to encapsulate specific functionality. Smaller methods that target a specific functionality are easier to read and maintain. For instance, do not put the entire function of a SysOperation service class into the run() method or similar entry point. Break apart the various functionalities into methods that call each other in a logical structure.
+* Chain-of-command (CoC) methods should be an main entry point for calling the next() method.  Any additional code needed for the extension should be written in a new method or class called from the CoC method.
 
 ####Naming conventions
-<ul>
-    <li>Methods created directly on an extension object should user with the project or initiative prefix.</li>
-    <li>The name of the method should clearly define what the function of the method achieves.</li>
-    <li>Parameters should be prefixed with an underscore "_".</li>
-</ul>
+* Methods created directly on an extension object should use the project or initiative prefix.
+* The name of the method should clearly define what the function of the method achieves.
+* Parameters should be prefixed with an underscore "_".
 
 ####Coding standards
 * Use camel-case when naming variables: capitalize the first letter of each word or section in the method name and leave the rest of the letter lower-case for readability
@@ -48,8 +44,8 @@
         group by salesLine.SalesStatus;
     ```
 * Avoid the use of the 'var' keyword when coding and opt for the type of the object. Along the same lines, avoid the use of the base types when naming variables and use the most logical extended data type.
-* Static text should be assigned a label and wrapped in double-quotes wherever possible. Thinkmax usually are involved in projects where English and French are used at a minimum and labels standardize translations.
+* Static text should be assigned a label and wrapped in double-quotes wherever possible. Thinkmax are usually involved in projects where English and French are used at a minimum and labels standardize translations.
     * Where labels cannot be used or are not applicable, put static text inside single-quotes.
 
-<hr>
-Link to <a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-language-reference">Microsoft documentation</a>
+---
+Link to [Microsoft documentation](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-ref/xpp-language-reference)
