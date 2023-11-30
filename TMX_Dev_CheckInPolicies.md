@@ -4,4 +4,5 @@
     * i.e. FDD-144, initial delivery
     * i.e. FDD-1234, form extension method bug fix
     * i.e. FDD-145, new requirements from CR-123
-* All changesets must be checked in against a Azure DevOps work item. 
+* All changesets must be checked in against a Azure DevOps work item.
+    * It is the responsibility of the dev lead to create and assign the Azure DevOps work item to the developer assigned to the FDD. 
